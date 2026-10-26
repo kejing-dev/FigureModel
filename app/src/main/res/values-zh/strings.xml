@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 中文。文案来自设计包 copy；提示行中文每行 ≤ 24 字，最多 2 行。 -->
+<resources>
+    <string name="app_name">速写模特</string>
+    <string name="lang_code">zh</string>
+
+    <!-- 控制面板 -->
+    <string name="title_starting">速写模特</string>
+    <string name="title_still">静物 %1$s</string>
+    <string name="desk_size">35 cm</string>
+    <string name="action_start">开始</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_resume">继续</string>
+    <string name="action_retry">重试</string>
+    <string name="action_cancel_move">取消重放</string>
+    <string name="action_prev">上一个</string>
+    <string name="action_next">下一个</string>
+    <string name="action_more">更多</string>
+
+    <!-- 提示行 -->
+    <string name="hint_s1">准备中…</string>
+    <string name="hint_s2">环顾一下房间，正在找地板…</string>
+    <string name="hint_s3">摇杆左右转动 · 看木人旁的「下一个」圆盘 1.5 秒换姿势</string>
+    <string name="hint_s4">看木人旁的「下一个」圆盘 1.5 秒换姿势 · 摇杆左右转动</string>
+    <string name="hint_s7">已暂停 · 摇杆左右转动</string>
+    <string name="hint_s8">松手放下 · 靠近虚线圈会吸回去</string>
+    <string name="hint_s9">摇杆左右转动</string>
+    <string name="hint_s10">拖灯球换光</string>
+    <string name="hint_s15">没找到地板，画好房间边界后重试</string>
+    <string name="hint_s16">现在用不了，看前方的对话框</string>
+    <string name="hint_s18">看着地板捏一下，站位圈就放那里</string>
+    <string name="hint_snapped">已站回圈上</string>
+    <string name="hint_back_to_floor">站位圈已放回地板</string>
+    <string name="hint_floor_only">1:1 的木人只站地板</string>
+
+    <!-- 更多菜单 -->
+    <string name="menu_light">光照</string>
+    <string name="menu_orb">灯球</string>
+    <string name="menu_order">顺序</string>
+    <string name="menu_content">内容</string>
+    <string name="menu_size">大小</string>
+    <string name="menu_sound">声音</string>
+    <string name="menu_language">语言</string>
+    <string name="menu_relocate">重新放站位圈</string>
+    <string name="menu_exit">退出</string>
+    <string name="light_left">左上</string>
+    <string name="light_right">右上</string>
+    <string name="light_front">正面</string>
+    <string name="light_back">逆光</string>
+    <string name="light_top">顶光</string>
+    <string name="orb_show">显示</string>
+    <string name="orb_hide">隐藏</string>
+    <string name="order_shuffle">随机</string>
+    <string name="order_seq">顺序</string>
+    <string name="content_figure">木人</string>
+    <string name="content_still">静物</string>
+    <string name="size_full">1:1</string>
+    <string name="size_desk">桌面</string>
+    <string name="sound_on">开</string>
+    <string name="sound_off">关</string>
+    <string name="lang_zh">中</string>
+    <string name="lang_en">EN</string>
+
+    <!-- 无法使用对话框 -->
+    <string name="dialog_title">现在用不了</string>
+    <string name="dialog_not_full_space">请在全空间里打开这个应用</string>
+    <string name="dialog_no_planes">平面识别不可用</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English (default). Copy from the design package `copy`; the Chinese mirror is in values-zh. -->
+<resources>
+    <string name="app_name">Figure Model</string>
+    <string name="lang_code">en</string>
+
+    <!-- control panel -->
+    <string name="title_starting">Figure Model</string>
+    <string name="title_still">Still life %1$s</string>
+    <string name="desk_size">35 cm</string>
+    <string name="action_start">Start</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel_move">Cancel move</string>
+    <string name="action_prev">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_more">More</string>
+
+    <!-- hint line (design copy.hints; at most 2 lines of 40 characters) -->
+    <string name="hint_s1">Getting ready…</string>
+    <string name="hint_s2">Look around — finding your floor…</string>
+    <string name="hint_s3">Stick turns · Look at Next disc 1.5 s</string>
+    <string name="hint_s4">Look at Next disc 1.5 s · Stick turns</string>
+    <string name="hint_s7">Paused · Stick left/right turns</string>
+    <string name="hint_s8">Release to drop · Near the ring it snaps</string>
+    <string name="hint_s9">Stick left/right turns</string>
+    <string name="hint_s10">Drag the orb to relight</string>
+    <string name="hint_s15">No floor found. Set room boundary, then retry</string>
+    <string name="hint_s16">Can\'t run now — see the dialog</string>
+    <string name="hint_s18">Look at floor and pinch to place ring</string>
+    <string name="hint_snapped">Back on the ring</string>
+    <string name="hint_back_to_floor">Ring moved back to the floor</string>
+    <string name="hint_floor_only">Life-size figure stands on the floor only</string>
+
+    <!-- more menu -->
+    <string name="menu_light">Light</string>
+    <string name="menu_orb">Orb</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_content">Content</string>
+    <string name="menu_size">Size</string>
+    <string name="menu_sound">Sound</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_relocate">Move the ring</string>
+    <string name="menu_exit">Quit</string>
+    <string name="light_left">Left</string>
+    <string name="light_right">Right</string>
+    <string name="light_front">Front</string>
+    <string name="light_back">Back</string>
+    <string name="light_top">Top</string>
+    <string name="orb_show">Show</string>
+    <string name="orb_hide">Hide</string>
+    <string name="order_shuffle">Shuffle</string>
+    <string name="order_seq">In order</string>
+    <string name="content_figure">Figure</string>
+    <string name="content_still">Still life</string>
+    <string name="size_full">Life-size</string>
+    <string name="size_desk">Desk</string>
+    <string name="sound_on">On</string>
+    <string name="sound_off">Off</string>
+    <string name="lang_zh">中</string>
+    <string name="lang_en">EN</string>
+
+    <!-- blocked dialog -->
+    <string name="dialog_title">Can\'t run right now</string>
+    <string name="dialog_not_full_space">Open this app in Full Space</string>
+    <string name="dialog_no_planes">Plane detection unavailable</string>
+</resources>
