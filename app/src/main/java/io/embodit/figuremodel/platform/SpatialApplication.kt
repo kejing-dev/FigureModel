@@ -7,6 +7,7 @@ import io.embodit.figuremodel.mainApp
 class SpatialApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+        SpatialDataPermission.install(this)
         FmGraph.appContext = applicationContext
         launch(::mainApp)
     }

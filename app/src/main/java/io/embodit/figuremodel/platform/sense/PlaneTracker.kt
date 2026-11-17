@@ -59,6 +59,15 @@ class PlaneTracker {
             }
         runCatching { PlaneTrackingManager.start() }
             .onFailure { FmLog.e("PLANES start failed: $it", it) }
+        io.embodit.figuremodel.platform.SpatialDataPermission.whenGranted {
+            if (subscription != null) {
+                runCatching { PlaneTrackingManager.stop() }
+                runCatching { PlaneTrackingManager.start() }
+                startedAtMs = SystemClock.elapsedRealtime()
+                lastAddedAtMs = startedAtMs
+                android.util.Log.i("SpatialData", "PlaneTrackingManager restarted after grant")
+            }
+        }
         FmLog.i("PLANES tracking started state=${runCatching { PlaneTrackingManager.state }.getOrNull()}")
     }
 
